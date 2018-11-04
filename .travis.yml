@@ -2,8 +2,12 @@ language: node_js
 node_js:
   - "8"
 os:
-  - linux
+  # - linux
   - osx
+
+cache:
+  directories:
+    - node_modules
 
 env:
   - CODECOV_TOKEN="932bd39a-1bbf-43fc-a0e6-3f05f31ee61c"
