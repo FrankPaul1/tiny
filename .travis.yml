@@ -1,5 +1,10 @@
 language: node_js
 node_js:
   - "8"
+
 # use yarn
 cache: yarn
+
+# hooks
+before_install:
+  - yarn global add yarn@1.9.4
