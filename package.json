@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "name": "tiny",
+  "version": "1.0.0",
+  "description": "tiny implementation",
+  "main": "index.js",
+  "repository": "git@github.com:FrankPaul1/tiny.git",
+  "author": "zoushicheng <zoushicheng@bytedance.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  }
+}
