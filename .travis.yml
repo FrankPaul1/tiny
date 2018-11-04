@@ -1,9 +1,15 @@
 language: node_js
 node_js:
   - "8"
+os:
+  - linux
+  - osx
 
-# use yarn
-cache: yarn
+env:
+  - CODECOV_TOKEN="932bd39a-1bbf-43fc-a0e6-3f05f31ee61c"
+
+script:
+  - yarn test:coverage
 
 # hooks
 before_install:

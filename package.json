@@ -11,6 +11,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "codecov": "codecov",
+    "test": "jest",
+    "test:coverage": "yarn test --coverage && yarn codecov"
+  },
+  "devDependencies": {
+    "codecov": "^3.1.0"
   }
 }
