@@ -7,4 +7,4 @@ cache: yarn
 
 # hooks
 before_install:
-  - yarn global add yarn@1.9.4
+  - yarn global add yarn@1.9.4 --network-timeout 100000
