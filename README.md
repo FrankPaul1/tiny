@@ -10,6 +10,9 @@
 - [ ] eslint config
 - [ ] babel config
 - [ ] git cz config
+- [ ] tiny promise
+- [ ] tiny qs
+- [ ] tiny dataloader
 - [ ] tiny ejs
 - [ ] tiny koa
 - [ ] tiny react

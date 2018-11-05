@@ -2,7 +2,6 @@ function test() {
   return 'test';
 }
 
-module.exports = {
+export {
   test,
 }
-

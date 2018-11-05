@@ -1,4 +1,4 @@
-const { test } = require('../index');
+import { test } from '../';
 
 describe('[ejs]: test for jest', () => {
   it('test', () => {
