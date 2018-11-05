@@ -6,13 +6,15 @@ os:
   - osx
 
 cache:
-  directories:
+  - yarn
+  - directories:
     - node_modules
 
 env:
   - CODECOV_TOKEN="932bd39a-1bbf-43fc-a0e6-3f05f31ee61c"
 
 script:
+  - yarn lint
   - yarn test:coverage
 
 # hooks
