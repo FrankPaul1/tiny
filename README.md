@@ -7,9 +7,9 @@
 ### TODO:
 - [x] travis
 - [x] codecov
-- [ ] eslint config
-- [ ] babel config
-- [ ] git cz config
+- [x] eslint config
+- [x] babel config
+- [x] git cz config
 - [ ] tiny promise
 - [ ] tiny qs
 - [ ] tiny dataloader
